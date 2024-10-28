@@ -1,0 +1,15 @@
+{
+  "name": "narumi_keilly_framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Narumi Tamezawa, Keilly Ruth Panis",
+  "license": "ISC",
+  "private": true,
+  "description": "Seneca INM320 SAA Frontend Framework Assignment",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
