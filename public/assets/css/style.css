@@ -1,0 +1,17 @@
+/* General */
+html {
+    background-color: #F7F8FC;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #363740;
+}
+.nav-item {
+    color: #DDE2FF;
+    font-size: 1.4em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 2vh 0;
+}
