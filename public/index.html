@@ -65,125 +65,123 @@
     </nav>
 
     <main class="container">
-        <h1>Overview</h1>
-        <section>
-            <div class="row text-center">
-                <figure class="col">
-                    <h3>Unresolved</h3>
-                    <p>60</p>
-                </figure>
-                <figure class="col">
-                    <h3>Overdue</h3>
-                    <p>16</p>
-                </figure>
-            </div>
-            <div class="row text-center">
-                <figure class="col">
-                    <h3>Open</h3>
-                    <p>43</p>
-                </figure>
-                <figure class="col">
-                    <h3>On hold</h3>
-                    <p>64</p>
-                </figure>
-            </div>
-            <section>
-                <figcaption class="row align-items-end justify-content-between">
-                    <div class="col-7">
-                        <h2>Today's trands</h2>
-                        <p>as of 25 May 2019, 09:41 PM</p>
-                    </div>
-                    <div class="col-4">
-                        <p>Yesterday</p>
-                        <p>Today</p>
-                    </div>
-                </figcaption>
-                <figure class="figure text-center">
-                    <img src="assets/img/full graph.png" alt="today's trands graph" class="figure-img img-fluid">
-                </figure>
-                <ul class="text-center">
-                    <li>
-                        <h3>Resolved</h3>
-                        <p>449</p>
-                    </li>
-                    <li>
-                        <h3>Received</h3>
-                        <p>426</p>
-                    </li>
-                    <li>
-                        <h3>Avarage first response time</h3>
-                        <p>33m</p>
-                    </li>
-                    <li>
-                        <h3>Avarage responst time</h3>
-                        <p>3h 8m</p>
-                    </li>
-                    <li>
-                        <h3>Resolution within SLA</h3>
-                        <p>94%</p>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <div>
-                    <div>
-                        <h2>Unresolved tickets</h2>
-                        <p>Group: <span>Support</span></p>
-                    </div>
-                    <a href="#">View details</a>
-                </div>
-                <ul class="text-center">
-                    <li>
-                        <h4>Waiting on Feature Request</h4>
-                        <p>4238</p>
-                    </li>
-                    <li>
-                        <h4>Awaiting Customer Response</h4>
-                        <p>1005</p>
-                    </li>
-                    <li>
-                        <h4>Awaiting Developer Fix</h4>
-                        <p>914</p>
-                    </li>
-                    <li>
-                        <h4>Pending</h4>
-                        <p>281</p>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <div>
-                    <div>
-                        <h2>Tasks</h2>
-                        <p>Today</p>
-                    </div>
-                    <a href="#">View all</a>
-                </div>
-                <div>
-                    <h4>Create new task</h4>
-                    <em class="bi bi-plus-lg"></em>
-                </div>
-                <ul>
-                    <li>
-                        <h4>Finish ticket update</h4>
-                        <div class="text-uppercase">Urgent</div>
-                    </li>
-                    <li>
-                        <h4>Finish ticket update</h4>
-                        <div class="text-uppercase">Urgent</div>
-                    </li>
-                    <li>
-                        <h4>Create new ticket example</h4>
-                        <div class="text-uppercase">New</div>
-                    </li>
-                    <li>
-                        <h4>Update ticket report</h4>
-                        <div class="text-uppercase">Default</div>
-                    </li>
 
-                </ul>
-            </section>
+        <h1 id="title">Overview</h1>
+        <div class="container">
+            <div class="row text-center column-gap-3">
+                <figure class="col border rounded-3 bg-white pt-4 pb-4">
+                    <h3 class="text-black-50">Unresolved</h3>
+                    <p class="number">60</p>
+                </figure>
+                <figure class="col border rounded-3 bg-white pt-4 pb-4">
+                    <h3 class="text-black-50">Overdue</h3>
+                    <p class="number">16</p>
+                </figure>
+            </div>
+            <div class="row text-center column-gap-3">
+                <figure class="col border rounded-3 bg-white pt-4 pb-4">
+                    <h3 class="text-black-50">Open</h3>
+                    <p class="number">43</p>
+                </figure>
+                <figure class="col border rounded-3 bg-white pt-4 pb-4">
+                    <h3 class="text-black-50">On hold</h3>
+                    <p class="number">64</p>
+                </figure>
+            </div>
+        </div>
+        <section id="trends" class="border rounded-3 bg-white p-3">
+            <figcaption class="row align-items-end justify-content-between">
+                <div class="col-7">
+                    <h2 class="section-title">Today's trands</h2>
+                    <h5 class="text-black-50">as of 25 May 2019, 09:41 PM</h5>
+                </div>
+                <div class="col-4">
+                    <h5 class="text-black-50">Yesterday</h5>
+                    <h5 class="text-black-50">Today</h5>
+                </div>
+            </figcaption>
+            <figure class="figure text-center">
+                <img src="assets/img/full graph.png" alt="today's trands graph" class="figure-img img-fluid">
+            </figure>
+            <ul class="text-center">
+                <li class="border-bottom">
+                    <h3 class="text-black-50">Resolved</h3>
+                    <p class="number-s">449</p>
+                </li>
+                <li class="border-bottom">
+                    <h3 class="text-black-50">Received</h3>
+                    <p class="number-s">426</p>
+                </li>
+                <li class="border-bottom">
+                    <h3 class="text-black-50">Avarage first response time</h3>
+                    <p class="number-s">33m</p>
+                </li>
+                <li class="border-bottom">
+                    <h3 class="text-black-50">Avarage responst time</h3>
+                    <p class="number-s">3h 8m</p>
+                </li>
+                <li>
+                    <h3 class="text-black-50">Resolution within SLA</h3>
+                    <p class="number-s">94%</p>
+                </li>
+            </ul>
         </section>
+        <section id="Unresolved-tickets" class="border rounded-3 bg-white mt-3">
+            <div class="d-flex justify-content-between p-3">
+                <div class="">
+                    <h2 class="section-title">Unresolved tickets</h2>
+                    <h5 class="text-black-50">Group: <span class="text-black">Support</span></h5>
+                </div>
+                <a href="#">View details</a>
+            </div>
+            <ul class="text-center">
+                <li class="border-bottom d-flex justify-content-between align-items-center container">
+                    <h4>Waiting on Feature Request</h4>
+                    <p class="text-black-50 tickets-number">4238</p>
+                </li>
+                <li class="border-bottom d-flex justify-content-between align-items-center container">
+                    <h4>Awaiting Customer Response</h4>
+                    <p class="text-black-50 tickets-number">1005</p>
+                </li>
+                <li class="border-bottom d-flex justify-content-between align-items-center container">
+                    <h4>Awaiting Developer Fix</h4>
+                    <p class="text-black-50 tickets-number">914</p>
+                </li>
+                <li class="d-flex justify-content-between align-items-center container">
+                    <h4>Pending</h4>
+                    <p class="text-black-50 tickets-number">281</p>
+                </li>
+            </ul>
+        </section>
+        <section id="tasks" class="border rounded-3 bg-white mt-3 mb-3 pb-0">
+            <div class="d-flex justify-content-between p-3">
+                <div>
+                    <h2 class="section-title">Tasks</h2>
+                    <h5 class="text-black-50">Today</h5>
+                </div>
+                <a href="#">View all</a>
+            </div>
+            <div class="container border-bottom">
+                <h4 class="text-black-50">Create new task</h4>
+                <em class="bi bi-plus-lg"></em>
+            </div>
+            <ul>
+                <li class="d-flex justify-content-between align-items-center border-bottom container">
+                    <h4>Finish ticket update</h4>
+                    <div class="text-uppercase urgent text-white rounded-3">Urgent</div>
+                </li>
+                <li class="d-flex justify-content-between align-items-center border-bottom container">
+                    <h4>Create new ticket example</h4>
+                    <div class="text-uppercase new text-white rounded-3">New</div>
+                </li>
+                <li class="d-flex justify-content-between align-items-center container">
+                    <h4>Update ticket report</h4>
+                    <div class="text-uppercase default text-black-50 rounded-3">Default</div>
+                </li>
+
+            </ul>
+        </section>
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

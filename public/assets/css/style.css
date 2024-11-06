@@ -1,6 +1,14 @@
 /* General */
-html {
+main {
     background-color: #F7F8FC;
+}
+
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0 !important;
 }
 
 /* Navigation Bar */
@@ -51,4 +59,65 @@ html {
 .nav-icon {
     height: 2.1vh;
     margin-right: 6vw;
+}
+
+/* Main */
+.number {
+    font-size: 40px;
+}
+
+.number-s {
+    font-size: 24px;
+}
+
+#title {
+    font-size: 20px;
+    margin: 20px 0 20px;
+}
+
+ul {
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.tickets-number {
+    font-size: 16px;
+}
+
+.text-black-50 {
+    color: #9FA2B4;
+}
+
+h3.text-black-50,
+h5.text-black-50 {
+    font-size: 16px;
+
+}
+
+.urgent {
+    background-color: #FEC400;
+    padding: 5px 14px;
+    font-size: 14px;
+}
+
+.new {
+    background-color: #29CC97;
+    padding: 5px 14px;
+    font-size: 14px;
+}
+
+.default {
+    background-color: #F0F1F7;
+    padding: 5px 14px;
+    font-size: 14px;
+}
+
+.section-title {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    font-size: 16px !important;
+    padding: 20px 0 !important;
 }
