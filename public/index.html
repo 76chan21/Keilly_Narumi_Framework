@@ -1,191 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>INM320 SAA Frontend Framework Assignment - Narumi & Keilly</title>
+        <meta name="description" content="This is the INM320SAA front-end framework project collaboratively done by Narumi and Keilly.">
+        <!-- Stylesheet Links -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INM320 SAA Frontend Framework Assignment - Narumi & Keilly</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-
-<body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                <img src="./assets/img/burger-icon.png" alt="Burger menu icon" width="50" height="50" />
-            </button>
-            <a class="navbar-brand" href="#">Navbar In Progress</a>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a id="dashboard">
-                        <img src="./assets/img/dashboard-logo.png" id="dashboard-logo" />
-                        Dashboard Kit
-                    </a>
-                    <a class="nav-item active-item" aria-current="page" href="#">
-                        <img src="./assets/img/overview.png" class="nav-icon-active" />
-                        Overview
-                    </a>
-                    <a class="nav-item" href="#">
-                        <img src="./assets/img/tickets.png" class="nav-icon" />
-                        Tickets
-                    </a>
-                    <a class="nav-item" href="#">
-                        <img src="./assets/img/ideas.png" class="nav-icon" />
-                        Ideas
-                    </a>
-                    <a class="nav-item" href="#">
-                        <img src="./assets/img/contacts.png" class="nav-icon" />
-                        Contacts
-                    </a>
-                    <a class="nav-item" href="#">
-                        <img src="./assets/img/agents.png" class="nav-icon" />
-                        Agents
-                    </a>
-                    <a class="nav-item" href="#">
-                        <img src="./assets/img/articles.png" class="nav-icon" />
-                        Articles
-                    </a>
-                    <a class="nav-item" href="#">
-                        <img src="./assets/img/settings.png" class="nav-icon" />
-                        Settings
-                    </a>
-                    <a class="nav-item" href="#">
-                        <img src="./assets/img/subscription.png" class="nav-icon" />
-                        Subscription
-                    </a>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="./assets/img/burger-icon.png" alt="Burger menu icon" width="50" height="50" />
+                </button>
+                <!-- Nav Links -->
+                <a class="navbar-brand" href="#">Navbar In Progress</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a id="dashboard">
+                            <img src="./assets/img/dashboard-logo.png" id="dashboard-logo" />
+                            Dashboard Kit
+                        </a>
+                        <a class="nav-item active-item" aria-current="page" href="#">
+                            <img src="./assets/img/overview.png" class="nav-icon-active" />
+                            Overview
+                        </a>
+                        <a class="nav-item" href="#">
+                            <img src="./assets/img/tickets.png" class="nav-icon" />
+                            Tickets
+                        </a>
+                        <a class="nav-item" href="#">
+                            <img src="./assets/img/ideas.png" class="nav-icon" />
+                            Ideas
+                        </a>
+                        <a class="nav-item" href="#">
+                            <img src="./assets/img/contacts.png" class="nav-icon" />
+                            Contacts
+                        </a>
+                        <a class="nav-item" href="#">
+                            <img src="./assets/img/agents.png" class="nav-icon" />
+                            Agents
+                        </a>
+                        <a class="nav-item" href="#">
+                            <img src="./assets/img/articles.png" class="nav-icon" />
+                            Articles
+                        </a>
+                        <a class="nav-item" href="#">
+                            <img src="./assets/img/settings.png" class="nav-icon" />
+                            Settings
+                        </a>
+                        <a class="nav-item" href="#">
+                            <img src="./assets/img/subscription.png" class="nav-icon" />
+                            Subscription
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <main class="container">
+        <!-- Main -->
+        <main class="container">
+            <!-- Overview Cards -->
+            <h1 id="title">Overview</h1>
+            <div class="container-fluid">
+                <div class="row text-center column-gap-3">
+                    <figure class="card col border rounded-4 bg-white pt-4 pb-4">
+                        <h3 class="text-black-50">Unresolved</h3>
+                        <p class="number">60</p>
+                    </figure>
+                    <figure class="card col border rounded-4 bg-white pt-4 pb-4">
+                        <h3 class="text-black-50">Overdue</h3>
+                        <p class="number">16</p>
+                    </figure>
+                </div>
+                <div class="row text-center column-gap-3">
+                    <figure class="card col border rounded-4 bg-white pt-4 pb-4">
+                        <h3 class="text-black-50">Open</h3>
+                        <p class="number">43</p>
+                    </figure>
+                    <figure class="card col border rounded-4 bg-white pt-4 pb-4">
+                        <h3 class="text-black-50">On hold</h3>
+                        <p class="number">64</p>
+                    </figure>
+                </div>
+            </div>
 
-        <h1 id="title">Overview</h1>
-        <div class="container">
-            <div class="row text-center column-gap-3">
-                <figure class="col border rounded-3 bg-white pt-4 pb-4">
-                    <h3 class="text-black-50">Unresolved</h3>
-                    <p class="number">60</p>
+            <!-- Today's Trends -->
+            <section id="trends" class="border rounded-4 bg-white pt-4 px-4">
+                <figcaption class="row align-items-end justify-content-between">
+                    <div class="col-7">
+                        <h2 class="section-title">Today's trends</h2>
+                        <h5 class="text-black-50">as of 25 May 2019, 09:41 PM</h5>
+                    </div>
+                    <div class="col-4">
+                        <h5 class="text-black-50">Yesterday</h5>
+                        <h5 class="text-black-50">Today</h5>
+                    </div>
+                </figcaption>
+                <figure class="figure text-center">
+                    <img src="assets/img/full graph.png" alt="today's trands graph" class="figure-img img-fluid">
                 </figure>
-                <figure class="col border rounded-3 bg-white pt-4 pb-4">
-                    <h3 class="text-black-50">Overdue</h3>
-                    <p class="number">16</p>
-                </figure>
-            </div>
-            <div class="row text-center column-gap-3">
-                <figure class="col border rounded-3 bg-white pt-4 pb-4">
-                    <h3 class="text-black-50">Open</h3>
-                    <p class="number">43</p>
-                </figure>
-                <figure class="col border rounded-3 bg-white pt-4 pb-4">
-                    <h3 class="text-black-50">On hold</h3>
-                    <p class="number">64</p>
-                </figure>
-            </div>
-        </div>
-        <section id="trends" class="border rounded-3 bg-white p-3">
-            <figcaption class="row align-items-end justify-content-between">
-                <div class="col-7">
-                    <h2 class="section-title">Today's trands</h2>
-                    <h5 class="text-black-50">as of 25 May 2019, 09:41 PM</h5>
-                </div>
-                <div class="col-4">
-                    <h5 class="text-black-50">Yesterday</h5>
-                    <h5 class="text-black-50">Today</h5>
-                </div>
-            </figcaption>
-            <figure class="figure text-center">
-                <img src="assets/img/full graph.png" alt="today's trands graph" class="figure-img img-fluid">
-            </figure>
-            <ul class="text-center">
-                <li class="border-bottom">
-                    <h3 class="text-black-50">Resolved</h3>
-                    <p class="number-s">449</p>
-                </li>
-                <li class="border-bottom">
-                    <h3 class="text-black-50">Received</h3>
-                    <p class="number-s">426</p>
-                </li>
-                <li class="border-bottom">
-                    <h3 class="text-black-50">Avarage first response time</h3>
-                    <p class="number-s">33m</p>
-                </li>
-                <li class="border-bottom">
-                    <h3 class="text-black-50">Avarage responst time</h3>
-                    <p class="number-s">3h 8m</p>
-                </li>
-                <li>
-                    <h3 class="text-black-50">Resolution within SLA</h3>
-                    <p class="number-s">94%</p>
-                </li>
-            </ul>
-        </section>
-        <section id="Unresolved-tickets" class="border rounded-3 bg-white mt-3">
-            <div class="d-flex justify-content-between p-3">
-                <div class="">
-                    <h2 class="section-title">Unresolved tickets</h2>
-                    <h5 class="text-black-50">Group: <span class="text-black">Support</span></h5>
-                </div>
-                <a href="#">View details</a>
-            </div>
-            <ul class="text-center">
-                <li class="border-bottom d-flex justify-content-between align-items-center container">
-                    <h4>Waiting on Feature Request</h4>
-                    <p class="text-black-50 tickets-number">4238</p>
-                </li>
-                <li class="border-bottom d-flex justify-content-between align-items-center container">
-                    <h4>Awaiting Customer Response</h4>
-                    <p class="text-black-50 tickets-number">1005</p>
-                </li>
-                <li class="border-bottom d-flex justify-content-between align-items-center container">
-                    <h4>Awaiting Developer Fix</h4>
-                    <p class="text-black-50 tickets-number">914</p>
-                </li>
-                <li class="d-flex justify-content-between align-items-center container">
-                    <h4>Pending</h4>
-                    <p class="text-black-50 tickets-number">281</p>
-                </li>
-            </ul>
-        </section>
-        <section id="tasks" class="border rounded-3 bg-white mt-3 mb-3 pb-0">
-            <div class="d-flex justify-content-between p-3">
-                <div>
-                    <h2 class="section-title">Tasks</h2>
-                    <h5 class="text-black-50">Today</h5>
-                </div>
-                <a href="#">View all</a>
-            </div>
-            <div class="container border-bottom">
-                <h4 class="text-black-50">Create new task</h4>
-                <em class="bi bi-plus-lg"></em>
-            </div>
-            <ul>
-                <li class="d-flex justify-content-between align-items-center border-bottom container">
-                    <h4>Finish ticket update</h4>
-                    <div class="text-uppercase urgent text-white rounded-3">Urgent</div>
-                </li>
-                <li class="d-flex justify-content-between align-items-center border-bottom container">
-                    <h4>Create new ticket example</h4>
-                    <div class="text-uppercase new text-white rounded-3">New</div>
-                </li>
-                <li class="d-flex justify-content-between align-items-center container">
-                    <h4>Update ticket report</h4>
-                    <div class="text-uppercase default text-black-50 rounded-3">Default</div>
-                </li>
+                <ul class="text-center">
+                    <li class="border-bottom col-padding">
+                        <h3 class="text-black-50">Resolved</h3>
+                        <p class="number-s">449</p>
+                    </li>
+                    <li class="border-bottom col-padding">
+                        <h3 class="text-black-50">Received</h3>
+                        <p class="number-s">426</p>
+                    </li>
+                    <li class="border-bottom col-padding">
+                        <h3 class="text-black-50">Average first response time</h3>
+                        <p class="number-s">33m</p>
+                    </li>
+                    <li class="border-bottom col-padding">
+                        <h3 class="text-black-50">Average response time</h3>
+                        <p class="number-s">3h 8m</p>
+                    </li>
+                    <li class="col-padding">
+                        <h3 class="text-black-50">Resolution within SLA</h3>
+                        <p class="number-s">94%</p>
+                    </li>
+                </ul>
+            </section>
 
-            </ul>
-        </section>
-
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</body>
-
+            <!-- Unresolved Tickets -->
+            <section id="unresolved-tickets" class="border rounded-4 bg-white mt-3">
+                <div class="d-flex justify-content-between p-4">
+                    <div class="">
+                        <h2 class="section-title">Unresolved tickets</h2>
+                        <h5 class="text-black-50">Group: <span class="text-black">Support</span></h5>
+                    </div>
+                    <a href="#">View details</a>
+                </div>
+                <ul class="text-center">
+                    <li class="border-bottom d-flex justify-content-between align-items-center container px-4">
+                        <h4>Waiting on Feature Request</h4>
+                        <p class="text-black-50 tickets-number">4238</p>
+                    </li>
+                    <li class="border-bottom d-flex justify-content-between align-items-center container px-4">
+                        <h4>Awaiting Customer Response</h4>
+                        <p class="text-black-50 tickets-number">1005</p>
+                    </li>
+                    <li class="border-bottom d-flex justify-content-between align-items-center container px-4">
+                        <h4>Awaiting Developer Fix</h4>
+                        <p class="text-black-50 tickets-number">914</p>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center container px-4">
+                        <h4>Pending</h4>
+                        <p class="text-black-50 tickets-number">281</p>
+                    </li>
+                </ul>
+            </section>
+            
+            <!-- Tasks -->
+            <section id="tasks" class="border rounded-4 bg-white mt-3 mb-3 pb-0">
+                <div class="d-flex justify-content-between p-4">
+                    <div>
+                        <h2 class="section-title">Tasks</h2>
+                        <h5 class="text-black-50">Today</h5>
+                    </div>
+                    <a href="#">View all</a>
+                </div>
+                <div class="container border-bottom px-4">
+                    <h4 class="text-black-50">Create new task</h4>
+                    <em class="bi bi-plus-lg"></em>
+                </div>
+                <ul>
+                    <li class="d-flex justify-content-between align-items-center border-bottom container px-4">
+                        <h4>Finish ticket update</h4>
+                        <div class="text-uppercase urgent text-white rounded-4">Urgent</div>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center border-bottom container px-4">
+                        <h4>Create new ticket example</h4>
+                        <div class="text-uppercase new text-white rounded-4">New</div>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center container px-4">
+                        <h4>Update ticket report</h4>
+                        <div class="text-uppercase default text-black-50 rounded-4">Default</div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <!-- JS Links -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>
