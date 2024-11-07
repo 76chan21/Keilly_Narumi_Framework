@@ -27,7 +27,15 @@ a {
     letter-spacing: 1px;
 }
 
+hr {
+    color: #f7f8fc82!important;
+}
+
 /* Navigation Bar */
+.navbar-toggler {
+    border: none!important;
+}
+
 .navbar {
     background-color: #363740;
 }
@@ -36,13 +44,27 @@ a {
     color: #A4A6B3;
     font-size: 1.8em!important;
     font-weight: 600;
+    text-decoration: none;
     letter-spacing: 1px;
     padding: 3vh 5vw;
+    border-top: 1px solid #f7f8fc82;
 }
 
 #dashboard-logo {
     height: 4vh;
     margin-right: 2vw;
+}
+
+.search img {
+    height: 27px;
+}
+
+.notif img {
+    height: 32px;
+}
+
+.profile img {
+    height: 50px;
 }
 
 .nav-item {

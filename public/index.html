@@ -13,16 +13,28 @@
 
     <body>
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-md">
-            <div class="container-fluid">
-                <!-- Toggler -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="./assets/img/burger-icon.png" alt="Burger menu icon" width="50" height="50" />
-                </button>
+        <nav class="navbar navbar-expand-md row px-5 py-4">
+            <div class="container-fluid d-flex justify-content-between">
+                <!-- Toggler / Icons Bar -->
+                <div id="toggle" class="col">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="./assets/img/burger-icon.png" alt="Burger menu icon" width="50" height="50" />
+                    </button>
+                </div>
+                <div id="links" class="col d-flex justify-content-end align-items-center">
+                    <a class="search" href="#">
+                        <img src="./assets/img/search-icon.png" alt="Search icon">
+                    </a>
+                    <a class="notif ms-4" href="#">
+                        <img src="./assets/img/notification-icon.png" alt="New notification bell icon">
+                    </a>
+                    <a class="profile ms-4" href="#">
+                        <img src="./assets/img/photo.png" alt="Rounded profile picture icon">
+                    </a>
+                </div>
                 <!-- Nav Links -->
-                <a class="navbar-brand" href="#">Navbar In Progress</a>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse mt-4" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a id="dashboard">
                             <img src="./assets/img/dashboard-logo.png" id="dashboard-logo" />
@@ -52,6 +64,7 @@
                             <img src="./assets/img/articles.png" class="nav-icon" />
                             Articles
                         </a>
+                        <hr>
                         <a class="nav-item" href="#">
                             <img src="./assets/img/settings.png" class="nav-icon" />
                             Settings
