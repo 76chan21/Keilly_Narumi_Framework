@@ -18,12 +18,12 @@ h4 {
 }
 
 h4 {
-    font-size: 1.3em!important;
-    padding: 1em 0 !important;
+    font-size: 1.5em!important;
+    padding: 3vh 0!important;
 }
 
 a {
-    font-size: 1.3em!important;
+    font-size: 1.4em!important;
     letter-spacing: 1px;
 }
 
@@ -63,8 +63,9 @@ hr {
     height: 32px;
 }
 
+.burger img,
 .profile img {
-    height: 50px;
+    height: 50px!important;
 }
 
 .nav-item {
@@ -100,17 +101,17 @@ hr {
 
 /* Main */
 .number {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 500;
 }
 
 .number-s {
-    font-size: 1.9em;
+    font-size: 2.5em;
     font-weight: 500;
 }
 
 #title {
-    font-size: 1.5em;
+    font-size: 1.8em;
     letter-spacing: 1px;
     padding: 3vh 0;
 }
@@ -141,18 +142,18 @@ ul {
 }
 
 h3.text-black-50 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     padding-bottom: 0.5vh;
 }
 
 h5.text-black-50 {
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 .urgent {
     background-color: #FFCC00;
     padding: 0.5vh 3vw;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -160,7 +161,7 @@ h5.text-black-50 {
 .new {
     background-color: #29CC97;
     padding: 0.5vh 3vw;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -168,16 +169,41 @@ h5.text-black-50 {
 .default {
     background-color: #F0F1F7;
     padding: 0.5vh 3vw;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
 .section-title {
-    font-size: 1.5em;
+    font-size: 1.8em;
     padding-bottom: 1vh;
 }
 
 .col-padding {
     padding: 2vh 0;
+}
+
+/* 600px Breakpoint */
+@media (min-width: 600px) {
+    .big-screen {
+        display: flex;
+        width: 100%;
+    }
+
+    .col-sidebar {
+        width: 20%;
+    }
+
+    .col-content {
+        width: 80%;
+    }
+
+    #sidebar {
+        background-color: #363740;
+    }
+
+    .nav-item {
+        /* font-size: 2em; */
+        padding: 2vh 2vw;
+    }
 }
