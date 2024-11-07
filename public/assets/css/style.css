@@ -1,6 +1,6 @@
 /* General */
 body {
-    background-color: #F7F8FC!important;
+    background-color: #F7F8FC !important;
 }
 
 h2,
@@ -18,22 +18,22 @@ h4 {
 }
 
 h4 {
-    font-size: 1.5em!important;
-    padding: 3vh 0!important;
+    font-size: 1.5em !important;
+    padding: 3vh 0 !important;
 }
 
 a {
-    font-size: 1.4em!important;
+    font-size: 1.4em !important;
     letter-spacing: 1px;
 }
 
 hr {
-    color: #f7f8fc82!important;
+    color: #f7f8fc82 !important;
 }
 
 /* Navigation Bar */
 .navbar-toggler {
-    border: none!important;
+    border: none !important;
 }
 
 .navbar {
@@ -42,7 +42,7 @@ hr {
 
 #dashboard {
     color: #A4A6B3;
-    font-size: 1.8em!important;
+    font-size: 1.8em !important;
     font-weight: 600;
     text-decoration: none;
     letter-spacing: 1px;
@@ -65,12 +65,12 @@ hr {
 
 .burger img,
 .profile img {
-    height: 50px!important;
+    height: 50px !important;
 }
 
 .nav-item {
     color: #A4A6B3;
-    font-size: 1.5em!important;
+    font-size: 1.5em !important;
     letter-spacing: 1px;
     text-decoration: none;
     padding: 2vh 5vw;
@@ -101,12 +101,12 @@ hr {
 
 /* Main */
 .number {
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 500;
 }
 
 .number-s {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 500;
 }
 
@@ -117,7 +117,7 @@ hr {
 }
 
 .card:hover {
-    border: 1px solid #3751FF!important;
+    border: 1px solid #3751FF !important;
     cursor: pointer;
     transition: all 300ms ease-in;
     box-shadow: 0 4px 10px rgba(55, 81, 255, 0.5)
@@ -125,7 +125,7 @@ hr {
 
 .card:hover h3,
 .card:hover p {
-    color: #3751FF!important;
+    color: #3751FF !important;
 }
 
 ul {
@@ -142,12 +142,32 @@ ul {
 }
 
 h3.text-black-50 {
-    font-size: 1.6em;
-    padding-bottom: 0.5vh;
+    font-size: 1.2em;
+    padding-top: 1vh;
 }
 
 h5.text-black-50 {
-    font-size: 1.4em;
+    font-size: 1em;
+}
+
+#line-yersterday {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: #DFE0EB;
+}
+
+#line-today {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: #3751FF;
+}
+
+.add {
+    scale: 95%;
+    padding: 1.5%;
+    background-color: #F0F1F7;
 }
 
 .urgent {
@@ -183,6 +203,11 @@ h5.text-black-50 {
     padding: 2vh 0;
 }
 
+.py-5 {
+    padding-top: 3em !important;
+    padding-bottom: 2em !important;
+}
+
 /* 600px Breakpoint */
 @media (min-width: 600px) {
     .big-screen {
@@ -206,4 +231,13 @@ h5.text-black-50 {
         /* font-size: 2em; */
         padding: 2vh 2vw;
     }
+
+    #trends {
+        display: flex;
+    }
+
+    .col-padding {
+        padding: 2vh 0;
+    }
+
 }
