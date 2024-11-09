@@ -116,6 +116,17 @@ hr {
     padding: 3vh 0;
 }
 
+h3.card-title {
+    font-size: 1.8em;
+    color: #9FA2B4;
+}
+
+h3.card-title-s,
+h5.card-title-s {
+    font-size: 1.5em;
+    color: #9FA2B4;
+}
+
 .card:hover {
     border: 1px solid #3751FF !important;
     cursor: pointer;

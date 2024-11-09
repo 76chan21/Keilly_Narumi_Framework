@@ -132,46 +132,53 @@
         </nav>
 
         <!-- Main -->
-        <main class="container-fluid col-content px-5">
+        <main class="container-fluid px-5">
             <!-- Overview Cards -->
             <h1 class="mb-xl-4" id="title">Overview</h1>
-            <div class="container-fluid">
-                <div class="row row-cols-2 row-cols-xl-4 text-center">
-                    <figure class="card col border rounded-4 bg-white py-3 py-xl-2">
-                        <h3 class="text-black-50">Unresolved</h3>
+            <!-- <div class="row row-cols-2 row-cols-xl-4 text-center"> -->
+            <div class="row">
+                <div class="col col-sm-6 col-xl-3 text-center">
+                    <figure class="card col border rounded-4 bg-white py-5 px-2">
+                        <h3 class="card-title">Unresolved</h3>
                         <p class="number">60</p>
                     </figure>
-                    <figure class="card col border rounded-4 bg-white py-3 py-xl-2">
-                        <h3 class="text-black-50">Overdue</h3>
+                </div>
+                <div class="col col-sm-6 col-xl-3 text-center">
+                    <figure class="card col border rounded-4 bg-white py-5 px-2">
+                        <h3 class="card-title">Overdue</h3>
                         <p class="number">16</p>
                     </figure>
-                    <figure class="card col border rounded-4 bg-white py-3 py-xl-2">
-                        <h3 class="text-black-50">Open</h3>
+                </div>
+                <div class="col col-sm-6 col-xl-3 text-center">
+                    <figure class="card col border rounded-4 bg-white py-5 px-2">
+                        <h3 class="card-title">Open</h3>
                         <p class="number">43</p>
                     </figure>
-                    <figure class="card col border rounded-4 bg-white py-3 py-xl-2">
-                        <h3 class="text-black-50">On hold</h3>
+                </div>
+                <div class="col col-sm-6 col-xl-3 text-center">
+                    <figure class="card col border rounded-4 bg-white py-5 px-2">
+                        <h3 class="card-title">On hold</h3>
                         <p class="number">64</p>
                     </figure>
                 </div>
             </div>
-
+            
             <!-- Today's Trends -->
             <section id="trends" class="border rounded-4 bg-white pt-4 px-4 py-xl-0 px-xl-0 mt-xl-2">
                 <div class="row p-xl-4 align-self-start">
                     <figcaption class="row align-items-end justify-content-between mb-xl-5">
                         <div class="col-8">
                             <h2 class="section-title">Today's trends</h2>
-                            <h5 class="text-black-50">as of 25 May 2019, 09:41 PM</h5>
+                            <h5 class="card-title-s">as of 25 May 2019, 09:41 PM</h5>
                         </div>
                         <div class="col-4 d-xl-flex flex-xl-row-reverse justify-content-between">
                             <div class="d-flex align-items-center">
                                 <div class="me-3" id="line-yersterday"></div>
-                                <h5 class="text-black-50">Yesterday</h5>
+                                <h5 class="card-title-s">Yesterday</h5>
                             </div>
                             <div class="d-flex align-items-center">
                                 <div class="me-3" id="line-today"></div>
-                                <h5 class="text-black-50">Today</h5>
+                                <h5 class="card-title-s">Today</h5>
                             </div>
                         </div>
                     </figcaption>
@@ -180,23 +187,23 @@
                 </div>
                 <ul class="text-center  border-start border-xl-start-0 col-xl-4">
                     <li class="border-bottom col-padding">
-                        <h3 class="text-black-50">Resolved</h3>
+                        <h3 class="card-title-s">Resolved</h3>
                         <p class="number-s">449</p>
                     </li>
                     <li class="border-bottom col-padding">
-                        <h3 class="text-black-50">Received</h3>
+                        <h3 class="card-title-s">Received</h3>
                         <p class="number-s">426</p>
                     </li>
                     <li class="border-bottom col-padding">
-                        <h3 class="text-black-50">Average first response time</h3>
+                        <h3 class="card-title-s">Average first response time</h3>
                         <p class="number-s">33m</p>
                     </li>
                     <li class="border-bottom col-padding">
-                        <h3 class="text-black-50">Average response time</h3>
+                        <h3 class="card-title-s">Average response time</h3>
                         <p class="number-s">3h 8m</p>
                     </li>
                     <li class="col-padding">
-                        <h3 class="text-black-50">Resolution within SLA</h3>
+                        <h3 class="card-title-s">Resolution within SLA</h3>
                         <p class="number-s">94%</p>
                     </li>
                 </ul>
@@ -209,7 +216,7 @@
                         <div class="d-flex justify-content-between p-4">
                             <div class="">
                                 <h2 class="section-title">Unresolved tickets</h2>
-                                <h5 class="text-black-50">Group: <span class="text-black">Support</span></h5>
+                                <h5 class="card-title-s">Group: <span class="text-black">Support</span></h5>
                             </div>
                             <a href="#" class="text-decoration-none">View details</a>
                         </div>
@@ -238,7 +245,7 @@
                         <div class="d-flex justify-content-between p-4">
                             <div>
                                 <h2 class="section-title">Tasks</h2>
-                                <h5 class="text-black-50">Today</h5>
+                                <h5 class="card-title-s">Today</h5>
                             </div>
                             <a href="#" class="text-decoration-none">View all</a>
                         </div>
