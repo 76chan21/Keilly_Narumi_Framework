@@ -148,20 +148,7 @@ ul {
     font-size: 1.4em;
 }
 
-.text-black-50 {
-    color: #9FA2B4;
-}
-
-h3.text-black-50 {
-    font-size: 1.2em;
-    padding-top: 1vh;
-}
-
-h5.text-black-50 {
-    font-size: 1em;
-}
-
-#line-yersterday {
+#line-yesterday {
     content: '';
     width: 20px;
     height: 2px;

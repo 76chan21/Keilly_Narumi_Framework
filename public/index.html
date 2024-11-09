@@ -135,34 +135,33 @@
         <main class="container-fluid px-5">
             <!-- Overview Cards -->
             <h1 class="mb-xl-4" id="title">Overview</h1>
-            <!-- <div class="row row-cols-2 row-cols-xl-4 text-center"> -->
             <div class="row">
-                <div class="col col-sm-6 col-xl-3 text-center">
+                <div class="col-sm-6 col-xl-3 text-center">
                     <figure class="card col border rounded-4 bg-white py-5 px-2">
                         <h3 class="card-title">Unresolved</h3>
                         <p class="number">60</p>
                     </figure>
                 </div>
-                <div class="col col-sm-6 col-xl-3 text-center">
+                <div class="col-sm-6 col-xl-3 text-center">
                     <figure class="card col border rounded-4 bg-white py-5 px-2">
                         <h3 class="card-title">Overdue</h3>
                         <p class="number">16</p>
                     </figure>
                 </div>
-                <div class="col col-sm-6 col-xl-3 text-center">
+                <div class="col-sm-6 col-xl-3 text-center">
                     <figure class="card col border rounded-4 bg-white py-5 px-2">
                         <h3 class="card-title">Open</h3>
                         <p class="number">43</p>
                     </figure>
                 </div>
-                <div class="col col-sm-6 col-xl-3 text-center">
+                <div class="col-sm-6 col-xl-3 text-center">
                     <figure class="card col border rounded-4 bg-white py-5 px-2">
                         <h3 class="card-title">On hold</h3>
                         <p class="number">64</p>
                     </figure>
                 </div>
             </div>
-            
+
             <!-- Today's Trends -->
             <section id="trends" class="border rounded-4 bg-white pt-4 px-4 py-xl-0 px-xl-0 mt-xl-2">
                 <div class="row p-xl-4 align-self-start">
@@ -209,69 +208,82 @@
                 </ul>
             </section>
 
-            <div class="container-fluid">
-                <div class="row row-cols-xl-2 mt-xl-2">
-                    <!-- Unresolved Tickets -->
-                    <section id="unresolved-tickets" class="border rounded-4 bg-white mt-3 mb-xl-4 pb-xl-0">
-                        <div class="d-flex justify-content-between p-4">
-                            <div class="">
-                                <h2 class="section-title">Unresolved tickets</h2>
-                                <h5 class="card-title-s">Group: <span class="text-black">Support</span></h5>
+            <div class="container-fluid my-4">
+                <!-- Unresolved Tickets -->
+                <div class="row">
+                    <section id="unresolved-tickets" class="col-sm-12 col-xl border rounded-4 bg-white me-sm-4 p-5 pb-1">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="mb-4">
+                                    <h2 class="section-title">Unresolved tickets</h2>
+                                    <h5 class="card-title-s">Group: <span class="text-black">Support</span></h5>
+                                </div>
                             </div>
-                            <a href="#" class="text-decoration-none">View details</a>
+                            <div class="col-4 d-flex justify-content-end">
+                                <a href="#" class="text-decoration-none">View details</a>
+                            </div>
                         </div>
-                        <ul class="text-center">
-                            <li class="border-bottom d-flex justify-content-between align-items-center container px-4">
-                                <h4>Waiting on Feature Request</h4>
-                                <p class="text-black-50 tickets-number">4238</p>
-                            </li>
-                            <li class="border-bottom d-flex justify-content-between align-items-center container px-4">
-                                <h4>Awaiting Customer Response</h4>
-                                <p class="text-black-50 tickets-number">1005</p>
-                            </li>
-                            <li class="border-bottom d-flex justify-content-between align-items-center container px-4">
-                                <h4>Awaiting Developer Fix</h4>
-                                <p class="text-black-50 tickets-number">914</p>
-                            </li>
-                            <li class="d-flex justify-content-between align-items-center container px-4">
-                                <h4>Pending</h4>
-                                <p class="text-black-50 tickets-number">281</p>
-                            </li>
-                        </ul>
+                        <div class="row">
+                            <div id="ticket-list">
+                                <ul class="text-center">
+                                    <li class="border-bottom d-flex justify-content-between align-items-center py-1">
+                                        <h4>Waiting on Feature Request</h4>
+                                        <p class="text-black-50 tickets-number">4238</p>
+                                    </li>
+                                    <li class="border-bottom d-flex justify-content-between align-items-center py-1">
+                                        <h4>Awaiting Customer Response</h4>
+                                        <p class="text-black-50 tickets-number">1005</p>
+                                    </li>
+                                    <li class="border-bottom d-flex justify-content-between align-items-center py-1">
+                                        <h4>Awaiting Developer Fix</h4>
+                                        <p class="text-black-50 tickets-number">914</p>
+                                    </li>
+                                    <li class="d-flex justify-content-between align-items-center pt-1">
+                                        <h4>Pending</h4>
+                                        <p class="text-black-50 tickets-number">281</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </section>
 
                     <!-- Tasks -->
-                    <section id="tasks" class="border rounded-4 bg-white mt-3 mb-4 pb-0">
-                        <div class="d-flex justify-content-between p-4">
-                            <div>
-                                <h2 class="section-title">Tasks</h2>
-                                <h5 class="card-title-s">Today</h5>
-                            </div>
-                            <a href="#" class="text-decoration-none">View all</a>
-                        </div>
-                        <!-- <div class="cd-flex justify-content-between align-items-center border-bottom container px-4">
-                            
-                        </div> -->
-                        <ul>
-                            <li class="d-flex justify-content-between align-items-center border-bottom container px-4">
-                                <h4 class="text-black-50">Create new task</h4>
-                                <div class="add rounded-3">
-                                    <img class="add" src="./assets/img/plus.png" alt="plus icon to create new task" />
+                    <section id="tasks" class="col-sm-12 col-xl border rounded-4 bg-white mt-sm-4 mt-xl-0 p-5 pb-1">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="mb-4">
+                                    <h2 class="section-title">Tasks</h2>
+                                    <h5 class="card-title-s">Today</h5>
                                 </div>
-                            </li>
-                            <li class="d-flex justify-content-between align-items-center border-bottom container px-4">
-                                <h4>Finish ticket update</h4>
-                                <div class="text-uppercase urgent text-white rounded-4">Urgent</div>
-                            </li>
-                            <li class="d-flex justify-content-between align-items-center border-bottom container px-4">
-                                <h4>Create new ticket example</h4>
-                                <div class="text-uppercase new text-white rounded-4">New</div>
-                            </li>
-                            <li class="d-flex justify-content-between align-items-center container px-4">
-                                <h4>Update ticket report</h4>
-                                <div class="text-uppercase default text-black-50 rounded-4">Default</div>
-                            </li>
-                        </ul>
+                            </div>
+                            <div class="col-4 d-flex justify-content-end">
+                                <a href="#" class="text-decoration-none">View all</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="task-list">
+                                <ul>
+                                    <li class="border-bottom d-flex justify-content-between align-items-center py-1">
+                                        <h4 class="text-black-50">Create new task</h4>
+                                        <div class="add rounded-3">
+                                            <img class="add" src="./assets/img/plus.png" alt="plus icon to create new task" />
+                                        </div>
+                                    </li>
+                                    <li class="border-bottom d-flex justify-content-between align-items-center py-1">
+                                        <h4>Finish ticket update</h4>
+                                        <div class="text-uppercase urgent text-white rounded-4">Urgent</div>
+                                    </li>
+                                    <li class="border-bottom d-flex justify-content-between align-items-center py-1">
+                                        <h4>Create new ticket example</h4>
+                                        <div class="text-uppercase new text-white rounded-4">New</div>
+                                    </li>
+                                    <li class="d-flex justify-content-between align-items-center pt-1">
+                                        <h4>Update ticket report</h4>
+                                        <div class="text-uppercase default text-black-50 rounded-4">Default</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </section>
                 </div>
             </div>
