@@ -42,41 +42,41 @@
                 <!-- Nav Links -->
                 <div class="collapse navbar-collapse mt-4" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a id="dashboard">
-                            <img src="./assets/img/dashboard-logo.png" id="dashboard-logo" alt="Dashboard logo" />
+                        <a id="dashboard" class="border-top border-light py-5 px-2">
+                            <img src="./assets/img/dashboard-logo.png" id="dashboard-logo" class="me-4 ps-1" alt="Dashboard logo" />
                             Dashboard Kit
                         </a>
                         <a class="nav-item active-item" aria-current="page" href="#">
-                            <img src="./assets/img/overview.png" class="nav-icon-active" alt="Overview icon" />
+                            <img src="./assets/img/overview.png" class="nav-icon-active me-4 ps-3" alt="Overview icon" />
                             Overview
                         </a>
                         <a class="nav-item" href="#">
-                            <img src="./assets/img/tickets.png" class="nav-icon" alt="Tickets icon" />
+                            <img src="./assets/img/tickets.png" class="nav-icon me-4 ps-3" alt="Tickets icon" />
                             Tickets
                         </a>
                         <a class="nav-item" href="#">
-                            <img src="./assets/img/ideas.png" class="nav-icon" alt="Ideas icon" />
+                            <img src="./assets/img/ideas.png" class="nav-icon me-4 ps-3" alt="Ideas icon" />
                             Ideas
                         </a>
                         <a class="nav-item" href="#">
-                            <img src="./assets/img/contacts.png" class="nav-icon" alt="Contacts icon" />
+                            <img src="./assets/img/contacts.png" class="nav-icon me-4 ps-3" alt="Contacts icon" />
                             Contacts
                         </a>
                         <a class="nav-item" href="#">
-                            <img src="./assets/img/agents.png" class="nav-icon" alt="Agents icon" />
+                            <img src="./assets/img/agents.png" class="nav-icon me-4 ps-3" alt="Agents icon" />
                             Agents
                         </a>
                         <a class="nav-item" href="#">
-                            <img src="./assets/img/articles.png" class="nav-icon" alt="Articles icon" />
+                            <img src="./assets/img/articles.png" class="nav-icon me-4 ps-3" alt="Articles icon" />
                             Articles
                         </a>
                         <hr>
                         <a class="nav-item" href="#">
-                            <img src="./assets/img/settings.png" class="nav-icon" alt="Settings icon" />
+                            <img src="./assets/img/settings.png" class="nav-icon me-4 ps-3" alt="Settings icon" />
                             Settings
                         </a>
                         <a class="nav-item" href="#">
-                            <img src="./assets/img/subscription.png" class="nav-icon" alt="Subscription icon" />
+                            <img src="./assets/img/subscription.png" class="nav-icon me-4 ps-3" alt="Subscription icon" />
                             Subscription
                         </a>
                     </div>
@@ -90,41 +90,41 @@
         <nav class="d-none d-xl-block col-sidebar" id="sidebar">
             <div class="sticky-top">
                 <div class="navbar-nav">
-                    <a id="dashboard">
-                        <img src="./assets/img/dashboard-logo.png" id="dashboard-logo" alt="Dashboard logo" />
+                    <a id="dashboard" class="py-5 px-5">
+                        <img src="./assets/img/dashboard-logo.png" id="dashboard-logo" class="me-4" alt="Dashboard logo" />
                         Dashboard Kit
                     </a>
                     <a class="nav-item active-item" aria-current="page" href="#">
-                        <img src="./assets/img/overview.png" class="nav-icon-active" alt="Overview icon" />
+                        <img src="./assets/img/overview.png" class="nav-icon-active me-5" alt="Overview icon" />
                         Overview
                     </a>
                     <a class="nav-item" href="#">
-                        <img src="./assets/img/tickets.png" class="nav-icon" alt="Tickets icon" />
+                        <img src="./assets/img/tickets.png" class="nav-icon me-5" alt="Tickets icon" />
                         Tickets
                     </a>
                     <a class="nav-item" href="#">
-                        <img src="./assets/img/ideas.png" class="nav-icon" alt="Ideas icon" />
+                        <img src="./assets/img/ideas.png" class="nav-icon me-5" alt="Ideas icon" />
                         Ideas
                     </a>
                     <a class="nav-item" href="#">
-                        <img src="./assets/img/contacts.png" class="nav-icon" alt="Contacts icon" />
+                        <img src="./assets/img/contacts.png" class="nav-icon me-5" alt="Contacts icon" />
                         Contacts
                     </a>
                     <a class="nav-item" href="#">
-                        <img src="./assets/img/agents.png" class="nav-icon" alt="Agents icon" />
+                        <img src="./assets/img/agents.png" class="nav-icon me-5" alt="Agents icon" />
                         Agents
                     </a>
                     <a class="nav-item" href="#">
-                        <img src="./assets/img/articles.png" class="nav-icon" alt="Articles icon" />
+                        <img src="./assets/img/articles.png" class="nav-icon me-5" alt="Articles icon" />
                         Articles
                     </a>
                     <hr>
                     <a class="nav-item" href="#">
-                        <img src="./assets/img/settings.png" class="nav-icon" alt="Settings icon" />
+                        <img src="./assets/img/settings.png" class="nav-icon me-5" alt="Settings icon" />
                         Settings
                     </a>
                     <a class="nav-item" href="#">
-                        <img src="./assets/img/subscription.png" class="nav-icon" alt="Subscription icon" />
+                        <img src="./assets/img/subscription.png" class="nav-icon me-5" alt="Subscription icon" />
                         Subscription
                     </a>
                 </div>
@@ -133,8 +133,26 @@
 
         <!-- Main -->
         <main class="container-fluid px-5">
+            <!-- Overview Bar -->
+            <div class="row py-5 mb-4 mb-sm-0">
+                <div class="col d-flex align-items-center">
+                    <h1 id="title">Overview</h1>
+                </div>
+                <div class="d-sm-none d-xl-flex col d-flex justify-content-end align-items-center">
+                    <a class="search" href="#">
+                        <img src="./assets/img/search-icon.png" alt="Search icon">
+                    </a>
+                    <a class="notif ms-4" href="#">
+                        <img src="./assets/img/notification-icon.png" alt="New notification bell icon">
+                    </a>
+                    <p class="name ps-4 ms-4 border-start border-secondary">Jones Ferdinand</p>
+                    <a class="profile ms-4" href="#">
+                        <img src="./assets/img/photo.png" alt="Rounded profile picture icon">
+                    </a>
+                </div>
+            </div>
+
             <!-- Overview Cards -->
-            <h1 class="mb-xl-4" id="title">Overview</h1>
             <div class="row">
                 <div class="col-sm-6 col-xl-3 text-center">
                     <figure class="card col border rounded-4 bg-white py-5 px-2">
@@ -172,7 +190,7 @@
                         </div>
                         <div class="col-4 d-xl-flex flex-xl-row-reverse justify-content-between">
                             <div class="d-flex align-items-center">
-                                <div class="me-3" id="line-yersterday"></div>
+                                <div class="me-3" id="line-yesterday"></div>
                                 <h5 class="card-title-s">Yesterday</h5>
                             </div>
                             <div class="d-flex align-items-center">

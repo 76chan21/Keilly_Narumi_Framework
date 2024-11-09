@@ -46,13 +46,10 @@ hr {
     font-weight: 600;
     text-decoration: none;
     letter-spacing: 1px;
-    padding: 3vh 5vw;
-    border-top: 1px solid #f7f8fc82;
 }
 
 #dashboard-logo {
     height: 4vh;
-    margin-right: 2vw;
 }
 
 .search img {
@@ -65,16 +62,14 @@ hr {
 
 .burger img,
 .profile img {
-    height: 50px !important;
+    height: 60px !important;
 }
 
 .nav-item {
     color: #A4A6B3;
-    font-size: 1.5em !important;
+    font-size: 1.8em !important;
     letter-spacing: 1px;
     text-decoration: none;
-    padding: 2vh 5vw;
-    margin: 0.1vh;
 }
 
 .nav-item:hover {
@@ -91,15 +86,17 @@ hr {
 
 .nav-icon-active {
     height: 2.1vh;
-    margin-right: 5vw;
 }
 
 .nav-icon {
     height: 2.1vh;
-    margin-right: 6vw;
 }
 
 /* Main */
+.name {
+    font-size: 1.5em;
+}
+
 .number {
     font-size: 3em;
     font-weight: 500;
@@ -111,9 +108,8 @@ hr {
 }
 
 #title {
-    font-size: 1.8em;
+    font-size: 2em;
     letter-spacing: 1px;
-    padding: 3vh 0;
 }
 
 h3.card-title {
@@ -211,6 +207,10 @@ ul {
     .big-screen {
         display: flex;
         width: 100%;
+    }
+
+    #dashboard {
+        border-top: none;
     }
 
     .col-sidebar {
