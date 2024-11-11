@@ -3,7 +3,7 @@
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 
-// MD Breakpoint
+// MD Breakpoint (not working yet, idk why)
 @include media-breakpoint-up(md) {
     .hello-border {
         border-left: 1px solid #F0F1F7;
