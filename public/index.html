@@ -136,7 +136,7 @@
         </nav>
 
         <!-- Main -->
-        <main class="container-fluid px-5">
+        <main class="container-fluid px-5 mb-5">
             <!-- Overview Bar -->
             <div class="row py-5 mb-4 mb-sm-0">
                 <div class="col d-flex align-items-center">
@@ -259,19 +259,19 @@
                                 <ul class="text-center">
                                     <li class="border-bottom d-flex justify-content-between align-items-center py-1">
                                         <h4>Waiting on Feature Request</h4>
-                                        <p class="text-black-50 tickets-number">4238</p>
+                                        <p class="tickets-number">4238</p>
                                     </li>
                                     <li class="border-bottom d-flex justify-content-between align-items-center py-1">
                                         <h4>Awaiting Customer Response</h4>
-                                        <p class="text-black-50 tickets-number">1005</p>
+                                        <p class="tickets-number">1005</p>
                                     </li>
                                     <li class="border-bottom d-flex justify-content-between align-items-center py-1">
                                         <h4>Awaiting Developer Fix</h4>
-                                        <p class="text-black-50 tickets-number">914</p>
+                                        <p class="tickets-number">914</p>
                                     </li>
                                     <li class="d-flex justify-content-between align-items-center pt-1">
                                         <h4>Pending</h4>
-                                        <p class="text-black-50 tickets-number">281</p>
+                                        <p class="tickets-number">281</p>
                                     </li>
                                 </ul>
                             </div>
@@ -295,7 +295,7 @@
                             <div id="task-list">
                                 <ul>
                                     <li class="border-bottom d-flex justify-content-between align-items-center py-1">
-                                        <h4 class="text-black-50">Create new task</h4>
+                                        <h4>Create new task</h4>
                                         <div class="add rounded-3">
                                             <img class="add" src="./assets/img/plus.png"
                                                 alt="plus icon to create new task" />
@@ -329,10 +329,62 @@
                                                 <h4>Update ticket report</h4>
                                             </label>
                                         </div>
-                                        <div class="text-uppercase default text-black-50 rounded-4 px-4">Default</div>
+                                        <div class="text-uppercase default rounded-4 px-4">Default</div>
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                    </section>
+
+                    <!-- Form Modal -->
+                    <section id="form-thing" class="container-fluid border rounded-4 bg-white mt-sm-4 mt-4 p-5 pb-1">
+                        <div class="row">
+                            <div class="col mb-5">
+                                <h2 class="section-title">Get in Touch with Support</h2>
+                                <h5 class="card-title-s">Got additional concerns? Get in touch with our technical team on the other side of the rainbow.</h5>
+                            </div>
+                            <form>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control p-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control p-3" id="exampleInputPassword1">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-3">
+                                        <input type="checkbox" class="form-check-input check-me" id="exampleCheck1">
+                                        <label class="form-check-label the-check ms-4" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <!-- Submit Trigger Modal -->
+                                    <div class="d-flex justify-content-center align-items-center mb-5">
+                                        <button type="button" class="btn btn-primary btn-form mt-2 p-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Try to Submit Me!</button>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header py-4 px-5">
+                                                    <h1 class="modal-title fs-1" id="exampleModalLabel">Form Submission Error!</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body fs-3 py-4 px-5">
+                                                    <p>Sorry, we don't want to accept your request. We're on holiday break. Check back never. Merry Christmas!</p>
+                                                </div>
+                                                <div class="modal-footer py-4 px-5">
+                                                    <button type="button" class="btn btn-secondary fs-4 py-3 px-4" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary fs-4 py-3 px-4">Save changes</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </section>
                 </div>
