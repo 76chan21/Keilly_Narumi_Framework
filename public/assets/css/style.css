@@ -148,7 +148,7 @@ h3.card-title {
 
 h3.card-title-s,
 h5.card-title-s {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #9FA2B4;
 }
 
@@ -217,6 +217,10 @@ ul {
     letter-spacing: 1px;
 }
 
+.text-grey {
+    color: #9FA2B4;
+}
+
 .section-title {
     font-size: 1.8em;
     padding-bottom: 1vh;
@@ -246,8 +250,13 @@ ul {
     color: #9FA2B4;
 }
 
-.the-check {
-    font-size: 1.5em;
+.form-check-input[type=checkbox] {
+    font-size: 2em;
+    border-radius: 50% !important;
+}
+
+.form-check-label {
+    letter-spacing: 1px;
 }
 
 .btn-form {
