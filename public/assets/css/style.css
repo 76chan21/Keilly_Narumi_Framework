@@ -92,6 +92,35 @@ hr {
     height: 2.1vh;
 }
 
+.big-screen {
+    display: flex;
+    width: 100%;
+}
+
+#dashboard {
+    border-top: none;
+}
+
+.col-sidebar {
+    width: 20%;
+}
+
+.col-content {
+    width: 80%;
+}
+
+#sidebar {
+    background-color: #363740;
+}
+
+.nav-item {
+    padding: 2vh 2vw;
+}
+
+.col-padding {
+    padding: 2vh 0;
+}
+
 /* Main */
 .name {
     font-size: 1.5em;
@@ -202,34 +231,7 @@ ul {
     padding-bottom: 2em !important;
 }
 
-/* 600px Breakpoint */
-@media (min-width: 600px) {
-    .big-screen {
-        display: flex;
-        width: 100%;
-    }
-
-    #dashboard {
-        border-top: none;
-    }
-
-    .col-sidebar {
-        width: 20%;
-    }
-
-    .col-content {
-        width: 80%;
-    }
-
-    #sidebar {
-        background-color: #363740;
-    }
-
-    .nav-item {
-        padding: 2vh 2vw;
-    }
-
-    .col-padding {
-        padding: 2vh 0;
-    }
+.form-check-input[type=checkbox] {
+    border-radius: 50% !important;
+    font-size: 2.5em;
 }
