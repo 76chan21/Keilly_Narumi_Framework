@@ -231,15 +231,6 @@ ul {
     padding-bottom: 2em !important;
 }
 
-.hello-border {
-    border-left: 1px solid #F0F1F7;
-}
-
-.form-check-input[type=checkbox] {
-    border-radius: 50% !important;
-    font-size: 2.5em;
-}
-
 .form-label {
     font-size: 1.5em;
     letter-spacing: 1px;

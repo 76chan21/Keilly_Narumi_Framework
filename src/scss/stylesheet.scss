@@ -1,11 +1,9 @@
 // Import the Boostrap stuff here
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
 
 // MD Breakpoint (not working yet, idk why)
-// @include media-breakpoint-up(md) {
-//     .hello-border {
-//         border-left: 1px solid #F0F1F7;
-//     }
-// }
+@include media-breakpoint-up(md) {
+    .hello-border {
+        border-left: 1px solid #F0F1F7;
+    }
+}
