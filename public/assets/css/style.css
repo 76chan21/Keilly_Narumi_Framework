@@ -235,3 +235,16 @@ ul {
     border-radius: 50% !important;
     font-size: 2.5em;
 }
+
+#trends-side {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.trends-side-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
