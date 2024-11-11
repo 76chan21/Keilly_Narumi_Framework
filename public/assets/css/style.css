@@ -23,7 +23,7 @@ h4 {
 }
 
 a {
-    font-size: 1.4em !important;
+    font-size: 1.5em !important;
     letter-spacing: 1px;
 }
 
@@ -103,7 +103,7 @@ hr {
 }
 
 .number-s {
-    font-size: 2em;
+    font-size: 2.4em;
     font-weight: 500;
 }
 
@@ -119,7 +119,7 @@ h3.card-title {
 
 h3.card-title-s,
 h5.card-title-s {
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #9FA2B4;
 }
 
@@ -226,16 +226,10 @@ ul {
     }
 
     .nav-item {
-        /* font-size: 2em; */
         padding: 2vh 2vw;
-    }
-
-    #trends {
-        display: flex;
     }
 
     .col-padding {
         padding: 2vh 0;
     }
-
 }
