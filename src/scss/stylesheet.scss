@@ -1,9 +1,9 @@
 // Import the Boostrap stuff here
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// MD Breakpoint (not working yet, idk why)
+// MD Breakpoint
 @include media-breakpoint-up(md) {
     .hello-border {
-        border-left: 1px solid #F0F1F7;
+        border-left: 1px solid #F0F1F7 !important;
     }
 }
