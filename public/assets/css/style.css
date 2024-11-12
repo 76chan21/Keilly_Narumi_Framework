@@ -31,6 +31,29 @@ hr {
     color: #f7f8fc82 !important;
 }
 
+/* Custom Classes for all Sections */
+.text-grey {
+    color: #9FA2B4;
+}
+
+.section-title {
+    font-size: 1.2em;
+    padding-bottom: 1vh;
+}
+
+.col-padding {
+    padding: 2vh 0;
+}
+
+.py-5 {
+    padding-top: 3em !important;
+    padding-bottom: 2em !important;
+}
+
+.tickets-number {
+    font-size: 1em;
+}
+
 /* Navigation Bar */
 .navbar-toggler {
     border: none !important;
@@ -122,10 +145,16 @@ hr {
 }
 
 /* Main */
+/* Overview Bar */
 .name {
     font-size: 1em;
 }
+#title {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
 
+/* Cards */
 .number {
     font-size: 2em;
     font-weight: 500;
@@ -134,11 +163,6 @@ hr {
 .number-s {
     font-size: 1.5em;
     font-weight: 500;
-}
-
-#title {
-    font-size: 1.2em;
-    letter-spacing: 1px;
 }
 
 h3.card-title {
@@ -164,13 +188,10 @@ h5.card-title-s {
     color: #3751FF !important;
 }
 
+/* Today's Trends */
 ul {
     padding-left: 0 !important;
     margin: 0 !important;
-}
-
-.tickets-number {
-    font-size: 1em;
 }
 
 #line-yesterday {
@@ -187,6 +208,20 @@ ul {
     background-color: #3751FF;
 }
 
+#trends-side {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.trends-side-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Tasks */
 .add {
     scale: 95%;
     padding: 1.5%;
@@ -217,24 +252,7 @@ ul {
     letter-spacing: 1px;
 }
 
-.text-grey {
-    color: #9FA2B4;
-}
-
-.section-title {
-    font-size: 1.2em;
-    padding-bottom: 1vh;
-}
-
-.col-padding {
-    padding: 2vh 0;
-}
-
-.py-5 {
-    padding-top: 3em !important;
-    padding-bottom: 2em !important;
-}
-
+/* Form */
 .form-label {
     font-size: 1em;
     letter-spacing: 1px;
@@ -264,17 +282,4 @@ ul {
     width: 100%;
     font-size: 1em !important;
     letter-spacing: 1px;
-}
-
-#trends-side {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.trends-side-item {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
