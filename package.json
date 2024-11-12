@@ -12,11 +12,9 @@
   "private": true,
   "description": "Seneca INM320 SAA Frontend Framework Assignment",
   "devDependencies": {
+    "bootstrap": "^5.3.3",
     "concurrently": "^9.1.0",
     "lite-server": "^2.6.1",
     "sass": "^1.80.6"
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.3"
   }
 }
